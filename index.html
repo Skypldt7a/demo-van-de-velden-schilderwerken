@@ -27,7 +27,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,WONK@0,9..144,300,0;0,9..144,500,0;0,9..144,700,0;1,9..144,300,0;1,9..144,500,0&family=Playfair+Display:wght@500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#141210;--ink2:#3a3632;--ink3:#908b85;--cream:#f7f3ec;--cream2:#ede7da;--cream3:#ddd5c4;--dark:#1c1a17;--dark2:#252220;--accent:#8b3a2a;--accent2:#b04d39;--accent-light:#f5ebe8;--white:#ffffff;--serif:'Fraunces',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--radius:14px;}
+:root{--ink:#141210;--ink2:#3a3632;--ink3:#908b85;--cream:#f7f3ec;--cream2:#ede7da;--cream3:#ddd5c4;--dark:#1c1a17;--dark2:#252220;--accent:#9b2c2c;--accent2:#b83838;--accent-light:#f5e8e8;--white:#ffffff;--serif:'Fraunces',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--radius:14px;}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;color-scheme:light;}
 body{font-family:var(--sans);color:var(--ink);background:var(--white);overflow-x:hidden;}
@@ -69,8 +69,8 @@ nav{position:sticky;top:0;z-index:200;display:flex;align-items:center;justify-co
 .hero-stat-num span{font-size:17px;color:var(--accent);font-style:italic;}
 .hero-stat-lbl{font-size:9px;font-weight:500;color:var(--ink3);letter-spacing:1px;text-transform:uppercase;}
 .hero-stat-divider{width:1px;height:50px;background:rgba(20,18,16,0.1);flex-shrink:0;}
-.btn-primary{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:white;border:none;padding:16px 30px;border-radius:10px;font-size:15px;font-weight:500;transition:background 0.2s,transform 0.15s,box-shadow 0.2s;box-shadow:0 4px 20px rgba(192,70,15,0.25);text-decoration:none;}
-.btn-primary:hover{background:var(--accent2);transform:translateY(-2px);box-shadow:0 8px 28px rgba(192,70,15,0.35);}
+.btn-primary{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:white;border:none;padding:16px 30px;border-radius:10px;font-size:15px;font-weight:500;transition:background 0.2s,transform 0.15s,box-shadow 0.2s;box-shadow:0 4px 20px rgba(155,44,44,0.25);text-decoration:none;}
+.btn-primary:hover{background:var(--accent2);transform:translateY(-2px);box-shadow:0 8px 28px rgba(155,44,44,0.35);}
 .btn-secondary{display:inline-flex;align-items:center;gap:9px;background:transparent;color:var(--ink);border:1.5px solid rgba(20,18,16,0.18);padding:15px 26px;border-radius:10px;font-size:15px;font-weight:400;transition:border-color 0.2s;text-decoration:none;}
 .btn-secondary:hover{border-color:var(--ink);}
 .trust{display:grid;grid-template-columns:repeat(4,1fr);background:var(--white);border-top:1px solid rgba(20,18,16,0.08);}
@@ -366,7 +366,7 @@ footer{background:var(--dark2);padding:30px 72px 18px;}
 <body>
 <a href="#main-content" class="skip-link">Ga naar inhoud</a>
 <nav role="navigation" aria-label="Hoofdnavigatie">
-  <a href="/" class="logo" aria-label="Van de Velden Schilderwerken, Startpagina"><img src="http://vdveldenschilderwerken.nl/.cm4all/uproc.php/0/.full_trimmed_transparent_customcolor.png/picture-1200" class="logo-nav-img" alt="Logo Van de Velden Schilderwerken" style="mix-blend-mode:multiply;"><span class="logo-text">Van de Velden Schilderwerken<span class="logo-sub">Alkmaar & omgeving</span></span></a>
+  <a href="/" class="logo" aria-label="Van de Velden Schilderwerken, Startpagina"><div style="overflow:hidden;width:64px;height:46px;display:inline-flex;align-items:flex-start;flex-shrink:0;"><img src="http://vdveldenschilderwerken.nl/.cm4all/uproc.php/0/.full_trimmed_transparent_customcolor.png/picture-1200" alt="Logo Van der Velden Schilderwerken" style="height:74px;width:auto;max-width:none;flex-shrink:0;filter:saturate(0.65);"></div><span class="logo-text">Van de Velden Schilderwerken<span class="logo-sub">Alkmaar & omgeving</span></span></a>
   <div class="nav-links">
     <a class="nav-link" href="#diensten">Diensten</a>
     <a class="nav-link" href="#portfolio">Portfolio</a>
